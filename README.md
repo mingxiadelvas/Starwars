@@ -1,6 +1,6 @@
-In terminal install: npm install antd and npm install --save @ant-design/icons \
+In terminal install: `npm install antd` and `npm install --save @ant-design/icons` \
 
-Run : npm start
+Run : `npm start`
 
 # Getting Started with Create React App
 
