@@ -27,13 +27,9 @@ const PeopleTable = () => {
     setSearchedColumn(dataIndex);
   };
 
-  const handleReset = (clearFilters) => {
-    clearFilters();
-    setSearchText('');
-  };
 
   const getColumnSearchProps = (dataIndex) => ({
-    filterDropdown: ({ setSelectedKeys, selectedKeys, confirm, clearFilters, close }) => (
+    filterDropdown: ({ setSelectedKeys, selectedKeys, confirm, close }) => (
       <div
         style={{
           padding: 8,
