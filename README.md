@@ -1,4 +1,4 @@
-In terminal install: `npm install antd` and `npm install --save @ant-design/icons` 
+In terminal install: `npm install antd`
 
 Run : `npm start`
 
