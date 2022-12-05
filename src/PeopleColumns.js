@@ -1,0 +1,33 @@
+export const PeopleColumns = [
+  { key: "name", title: "Name", dataIndex: "name" },
+  { key: "eye_color", title: "Eye Color", dataIndex: "eye_color" },
+  { key: "birth_year", title: "Birth Year", dataIndex: "birth_year" },
+  { key: "gender", title: "Gender", dataIndex: "gender" },
+  { key: "hair_color", title: "Hair Color", dataIndex: "hair_color" },
+  { key: "height", title: "Height", dataIndex: "height" },
+  { key: "mass", title: "Mass", dataIndex: "mass" },
+  { key: "skin_color", title: "Skin Color", dataIndex: "skin_color" },
+  { key: "homeworld", title: "Homeworld", dataIndex: "homeworld" },
+  {
+    key: "films",
+    title: "Films",
+    dataIndex: "films",
+    render: (text) => text.join("\n"),
+  },
+  { key: "species", title: "Species", dataIndex: "species" },
+  {
+    key: "starships",
+    title: "Starships",
+    dataIndex: "starships",
+    render: (text) => text.join("\n"),
+  },
+  {
+    key: "vehicles",
+    title: "Vehicles",
+    dataIndex: "vehicles",
+    render: (text) => text.join("\n"),
+  },
+  { key: "url", title: "Url", dataIndex: "url" },
+  { key: "created", title: "Created", dataIndex: "created" },
+  { key: "edited", title: "Edited", dataIndex: "edited" },
+];

@@ -1,18 +1,14 @@
-import './App.css';
-import React from 'react';
-import PeopleTable from './PeopleTable';
-import PlanetsTable from './PlanetsTable';
-import StarshipsTable from './StarshipsTable';
+import "./App.css";
+import React from "react";
 
-function App() {
+import StarwarsTable from "./StarwarsTable";
 
+const App = () => {
   return (
     <div className="App">
-        <PeopleTable/>
-        <PlanetsTable/>
-        <StarshipsTable/>
+      <StarwarsTable />
     </div>
   );
-}
+};
 
 export default App;
